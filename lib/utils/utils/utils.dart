@@ -1,0 +1,1 @@
+export '../utilities/get_it_initialize.dart';

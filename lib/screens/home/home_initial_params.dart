@@ -1,0 +1,3 @@
+class HomeInitialParams{
+  HomeInitialParams();
+}

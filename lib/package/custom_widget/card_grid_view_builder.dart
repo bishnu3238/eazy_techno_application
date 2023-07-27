@@ -1,0 +1,39 @@
+import 'package:eazy_techno_application/app_constants/app_constant.dart';
+import 'package:eazy_techno_application/package/custom_widget/card_grid_view_tile.dart';
+import 'package:flutter/material.dart';
+
+class CardGridViewBuilder<T> extends StatelessWidget {
+  const CardGridViewBuilder({
+    Key? key,
+    this.crossAxisCount = 4,
+    this.childAspectRatio = 1,
+    this.crossAxisPadding = p10,
+    this.mainAxisPadding = p10,
+    required this.children,
+    required this.builder,
+  }) : super(key: key);
+
+  final int crossAxisCount;
+  final double childAspectRatio;
+  final double crossAxisPadding;
+  final double mainAxisPadding;
+  final List<GridViewModel> children;
+  final IndexedWidgetBuilder builder;
+
+  @override
+  Widget build(BuildContext context) {
+    return GridView.builder(
+      physics: const NeverScrollableScrollPhysics(),
+      shrinkWrap: true,
+      itemCount: children.length,
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: crossAxisCount,
+        crossAxisSpacing: crossAxisPadding,
+        mainAxisSpacing: mainAxisPadding,
+        childAspectRatio: childAspectRatio,
+      ),
+      itemBuilder: builder
+
+    );
+  }
+}

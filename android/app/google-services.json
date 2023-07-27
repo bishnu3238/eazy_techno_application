@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "383254817735",
+    "project_id": "eazytechno-35351",
+    "storage_bucket": "eazytechno-35351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383254817735:android:e3c1b9683ff2d51fad87e2",
+        "android_client_info": {
+          "package_name": "com.eazytechno.eazy_techno_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383254817735-rrjj01on630tjrds97q4nstm95ic3uog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVG3OAGz5DNZot7RbZrt8rW_g-zMqswLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383254817735-rrjj01on630tjrds97q4nstm95ic3uog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "383254817735-1ok27qsfkju2ge3e9k7appskj97813bi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.eazytechno.eazyTechnoApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383254817735:android:72dbba101e2c346fad87e2",
+        "android_client_info": {
+          "package_name": "com.eazytechno.eazy_techno_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383254817735-rrjj01on630tjrds97q4nstm95ic3uog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVG3OAGz5DNZot7RbZrt8rW_g-zMqswLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383254817735-rrjj01on630tjrds97q4nstm95ic3uog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "383254817735-1ok27qsfkju2ge3e9k7appskj97813bi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.eazytechno.eazyTechnoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

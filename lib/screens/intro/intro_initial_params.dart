@@ -1,0 +1,4 @@
+class IntroInitialParams{
+
+   const  IntroInitialParams();
+}
